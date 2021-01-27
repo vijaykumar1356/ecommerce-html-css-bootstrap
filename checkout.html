@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Watch Store</title>
+    <link rel="icon" href="images/watch.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href='css/custom.css'>
+</head>
+<body>
+    <!-- navbar starts -->
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand  text-warning" href="home.html">
+                <svg style="color:yellow" width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-watch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4 14.333v-1.86A5.985 5.985 0 0 1 2 8c0-1.777.772-3.374 2-4.472V1.667C4 .747 4.746 0 5.667 0h4.666C11.253 0 12 .746 12 1.667v1.86A5.985 5.985 0 0 1 14 8a5.985 5.985 0 0 1-2 4.472v1.861c0 .92-.746 1.667-1.667 1.667H5.667C4.747 16 4 15.254 4 14.333zM13 8A5 5 0 1 0 3 8a5 5 0 0 0 10 0z"/>
+                <path d="M13.918 8.993A.502.502 0 0 0 14.5 8.5v-1a.5.5 0 0 0-.582-.493 6.044 6.044 0 0 1 0 1.986z"/>
+                <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H6a.5.5 0 0 1 0-1h1.5V5a.5.5 0 0 1 .5-.5z"/>
+                </svg> Watch Store
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-warning" href="items.html">Men's</a>
+                    <a class="nav-link text-warning" href="items.html">Women's</a>
+                    <a class="nav-link text-warning" href="items.html">Kids'</a>
+                    <a class="nav-link text-warning" href="cart.html"><svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg>
+                    </a>
+                 </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar ends -->
+    <dev class="container-fluid">
+        <dev class="row justify-content-center">
+            <h2>Check out Page</h2>
+        </dev>
+        <dev class="row">
+            <dev class="col-sm-6 ml-1">
+                <form>
+                    <h4 class="text-secondary">Account Information</h4>
+                    <div class="row mb-2">
+                        <div class="col-12 col-md-6">
+                            <input type="email" placeholder="abc@email.com" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input type="tel" placeholder="Phone Number" class="form-control">
+                        </div>
+                    </div>
+                    <h4 class="text-secondary">Shipping Address</h4>
+                    <div class="row mb-2">
+                        <div class="col-12">
+                            <input type="text" placeholder="Address" class="form-control">
+                            <input type="text" placeholder="City" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" placeholder="State/Province" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" placeholder="Zip/Postal Code" class="form-control">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="CustomerCountry">Country</label>
+                            <select id="CustomerCountry" class="form-control">
+                                <option selected>Choose..</option>
+                                <option>U.S.A</option>
+                                <option>Britain</option>
+                                <option>India</option>
+                                <option>China</option>
+                                <option>Brazil</option>
+                                <option>Africa</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </dev>
+            <dev class="col-sm-5 ml-1">
+                <form>
+                    <h4 class="text-secondary">Payment Method</h4>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="text" placeholder="Card holder Name" class="form-control">
+                            <input type="text" placeholder="Card Number" class="form-control">
+                        </div>
+                        <div class="col-12">
+                            <label for="expiryDate">Expiry</label>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <select id="month" class="form-control">
+                                <option selected>MM</option>
+                                <option>Jan</option>
+                                <option>Feb</option>
+                                <option>Mar</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>Aug</option>
+                                <option>Sep</option>
+                                <option>Oct</option>
+                                <option>Nov</option>
+                                <option>Dec</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <select id="year" class="form-control">
+                                <option selected>YYYY</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <input type="text" class="form-control" placeholder="CVV">
+                        </div>
+                    </div>
+                </form>
+                <table class="row table">
+                    <tr>
+                        <th class="text-info">Order Summary</th>
+                    </tr>
+                    <tr>
+                        <td><small>Hilfiger Round Analog Dial Mens Watch</small></td>
+                        <td><small>&#8377; 6,999</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Round Analog Grey Dial Men's Watch</small> </td>
+                        <td><small>&#8377; 13,295</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>Slimmest Edge Ceramic Analog Watch</small> </td>
+                        <td><small>&#8377; 4,995</small></td>
+                    </tr>
+                    <tr>
+                        <td class="text-right">Total Value</td>
+                        <td>&#8377; 24,289</td>
+                    </tr>
+                </table>
+                <a href="#" class="btn btn-success col-6">Place Order</a>
+            </dev>
+        </dev>
+    </dev>
+    <script src="js/jquery-3.5.1.slim.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

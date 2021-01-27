@@ -1,0 +1,12 @@
+html, body {
+    line-height: 1.5;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+input{
+    margin-bottom: 0.5rem;
+}
+
